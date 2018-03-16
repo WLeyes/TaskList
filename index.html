@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task List</title>
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+  <main class="container">
+    <article class="col s12 card">
+      <div class="card-content">
+        <h1 class="card-title">Task List</h1>
+          <form id="task__form">
+            <input type="text" id="task__input" placeholder="add new task">
+            <input id="task__submit" type="submit" class="btn submit" value="Add Task">
+          </form>
+            <h5 id="task--title">Tasks</h5>
+            <input type="text" class="task--filter" name="filter" placeholder="Filter Tasks">
+            <ul class="collection"></ul>
+            <a href="#" class="task__btn--clear btn black">Clear Tasks</a>
+      </div>
+    </article>
+  </main>
+
+  <!-- Compiled and minified JavaScript -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
