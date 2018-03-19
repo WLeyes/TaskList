@@ -63,7 +63,7 @@ function getTasks() {
 // Add task
 function addTask(e) {
   if(taskInput.value.trim() === '') {
-    alert('Add an task!');
+    alert('Add a task!');
     return;
   } else {
     // Create Element
